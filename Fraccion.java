@@ -63,6 +63,12 @@ public class Fraccion {
     }
   }
 
+  /**
+   * Devuelve la inversa de esta fracción.
+   *
+   * @return un nuevo objeto Fraccion que es la inversa de esta fracción
+   */
+
   public Fraccion invierte() {
     return new Fraccion(this.signo * this.denominador, this.numerador);
   }
