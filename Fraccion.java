@@ -72,8 +72,14 @@ public class Fraccion {
   public Fraccion invierte() {
     return new Fraccion(this.signo * this.denominador, this.numerador);
   }
-  
-  
+
+  /**
+   * Multiplica esta fracción por un número entero.
+   *
+   * @param n el número entero por el cual multiplicar
+   * @return un nuevo objeto Fraccion que es el resultado de la multiplicación
+   */
+
   public Fraccion multiplica(int n) {
     return new Fraccion(this.signo * this.numerador * n, this.denominador);
   }
