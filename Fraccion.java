@@ -38,7 +38,13 @@ public class Fraccion {
   int getNumerador(){
     return this.numerador;
   }
-  
+
+  /**
+   * Devuelve el denominador de esta fracción.
+   *
+   * @return el denominador
+   */
+
   int getDenominador(){
     return this.denominador;
   }
