@@ -1,3 +1,6 @@
+/**
+ * Esta clase representa una fracción matemática.
+ */
 public class Fraccion {
   
   private int signo;
