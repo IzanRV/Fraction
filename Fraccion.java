@@ -29,6 +29,12 @@ public class Fraccion {
     }
   }
 
+  /**
+   * Devuelve el numerador de esta fracción.
+   *
+   * @return el numerador
+   */
+
   int getNumerador(){
     return this.numerador;
   }
