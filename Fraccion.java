@@ -121,7 +121,12 @@ public class Fraccion {
       denominador * f.getNumerador());
   }
 
-  
+  /**
+   * Simplifica esta fracción a sus términos más bajos.
+   *
+   * @return un nuevo objeto Fraccion que es la fracción simplificada
+   */
+
   public Fraccion simplifica() {
     
     final int s = this.signo;
