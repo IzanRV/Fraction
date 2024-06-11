@@ -97,6 +97,12 @@ public class Fraccion {
       this.denominador * f.getDenominador());
   }
 
+  /**
+   * Divide esta fracción por un número entero.
+   *
+   * @param n el número entero por el cual dividir
+   * @return un nuevo objeto Fraccion que es el resultado de la división
+   */
  
   public Fraccion divide(int n) {
     return new Fraccion(this.signo * this.numerador, this.denominador * n);
