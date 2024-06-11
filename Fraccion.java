@@ -6,6 +6,14 @@ public class Fraccion {
   private int signo;
   private int numerador;
   private int denominador;
+
+  /**
+   * Construye un objeto Fraccion con el numerador y denominador dados.
+   *
+   * @param n el numerador
+   * @param d el denominador
+   * @throws IllegalArgumentException si el denominador es cero
+   */
   
   public Fraccion(int n, int d) {
     if (d == 0) {
